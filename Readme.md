@@ -34,7 +34,7 @@ Installation Guide: [https://ffmpeg.org/download.html]
 
 ---
 
-API Documentation
+**API Documentation**
 
 # Endpoint: `POST /transcribe`
 

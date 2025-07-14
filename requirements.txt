@@ -3,5 +3,4 @@ uvicorn[standard]
 python-multipart
 openai-whisper
 
-# For FFmpeg dependency 
 # Note: FFmpeg itself must be installed on the server system

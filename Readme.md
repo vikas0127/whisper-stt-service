@@ -29,8 +29,8 @@ Installation Guide: [https://ffmpeg.org/download.html]
     ```bash
     uvicorn main:app --reload
     ```
-The server will start on `http://127.0.0.1:8000`.
-The first time it runs, it will download the Whisper `base` model (~142MB). This is a one-time download.
+   - The server will start on `http://127.0.0.1:8000`.
+   - The first time it runs, it will download the Whisper `base` model (~142MB). This is a one-time download.
 
 ---
 

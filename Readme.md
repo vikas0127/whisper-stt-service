@@ -36,7 +36,7 @@ Installation Guide: [https://ffmpeg.org/download.html]
 
 **API Documentation**
 
-# Endpoint: `POST /transcribe`
+### Endpoint: `POST /transcribe`
 
 Accepts an audio file and returns the transcribed text.
 
@@ -44,7 +44,7 @@ Accepts an audio file and returns the transcribed text.
 - Method: `POST`
 - Body: `multipart/form-data` with a single field named `file` containing the audio data.
 
-# Example `curl` Request:
+### Test `curl` Request:
 ```bash
 curl.exe -X POST -F "file=@test_audio.m4a" 
 http://127.0.0.1:8000/transcribe
